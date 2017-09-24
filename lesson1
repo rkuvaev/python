@@ -1,0 +1,40 @@
+# coding : utf-8
+
+import os
+
+# Урок №1 — Вводный курс Python
+
+print("Урок №1 — Вводный курс Python")
+print("Привет, программист")
+name = input("Ваше имя: ")
+
+print(name, "добро пожаловать в мир Python!")
+
+answer = input("Давайте поработаем? (y/n)")
+
+if answer == "y":
+    print("Отлично, хозяин!")
+    print("Введите номер действия, которое хотите выполнить")
+    print("[1] Coding)")
+    print("[2] Debuging)")
+    print("[3] Testing")
+    do = int(input("Укажите ваше действия: "))
+        if do == "1":
+            print("Программируй 30 минут!")
+        elif do == "2":
+            print("Отлаживай баги 15 минут!")
+        elif do == "3":
+            print("Тестируй 20 минут!")
+        else:
+            print("Неизвестный выбор")
+elif answer == "n":
+    print("До свидания, лентяй!")
+else:
+    print("Неизвестный выбор")
+
+input()
+
+
+y=9>8
+
+if :
